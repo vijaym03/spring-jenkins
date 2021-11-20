@@ -15,7 +15,7 @@ public class SpringBasicsApplication {
 
 	@PostConstruct
 	public void init(){
-		logger.info("Application started");
+		logger.info("Spring boot Application started");
 	}
 	public static void main(String[] args) {
 		logger.info("Application executed");
